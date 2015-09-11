@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<header>
+  <div class="container">
+    <h1><i class="fa fa-book"></i>&nbsp; Documentation</h1>
+  </div>
+</header>
+
+<div class="container">
+  <ol class="docs-list">
+    {% for p in site.posts reversed %}
+    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {% endfor %}
+  </ol>
+</div>
