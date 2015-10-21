@@ -1,6 +1,6 @@
 <div class="container">
   <ol class="docs-list">
-    <li><a href="/docs" {% if page.url == '/docs/index.html' %}class="current"{% endif %}>Introduction</a></li>
+    <li><a href="{{ site.baseurl }}/docs" {% if page.url == '/docs/index.html' %}class="current"{% endif %}>Introduction</a></li>
     {% for p in site.posts reversed %}
     <li><a href="{{ site.baseurl }}{{ p.url }}" {% if page.url == p.url %}class="current"{% endif %}>{{ p.title }}</a></li>
     {% endfor %}
