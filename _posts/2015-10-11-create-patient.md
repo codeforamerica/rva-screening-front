@@ -1,6 +1,6 @@
 ---
 title: Creating a Patient
-layout: post
+layout: docs
 ---
 
 This is how you make a patient.
