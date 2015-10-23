@@ -19,7 +19,8 @@ body {
 
 
 .container {
-  margin: 2em auto;
+  margin: auto;
+  padding: 2em 0;
   max-width: 750px;
 }
 .container.large {
@@ -99,7 +100,7 @@ blockquote {
   background: #d3ebed;
 }
 img {
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 
 .button {
@@ -206,7 +207,11 @@ article h1 {
   overflow: hidden;
 }
 .browser img {
-  width: 100%;
+  width: 852px;
+}
+.browser .browser-bar {
+  margin-left: -2px;
+  width: 854px;
 }
 
 .signup {
@@ -235,4 +240,17 @@ article h1 {
   font-size: 1.3em;
   margin: 0;
   margin-bottom: 0.5em;
+}
+
+.footer {
+  background: white;
+}
+.footer a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 2em;
+}
+.footer .rchd {
+  width: 100px;
+  height: auto;
 }
