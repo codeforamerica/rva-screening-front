@@ -95,18 +95,21 @@ header.page {
 }
 header.page h1 {
   font-size: 3em;
-}
-.home h1 {
-  text-align: left;
-  margin-left: -60px;
   margin-bottom: 0;
 }
+
 h1 img {
-  max-width: 500px;
+  width: 100%;
 }
 @media (min-width: 960px) {
   header {
     padding: 4em 0 6em;
+  }
+  .home h1 {
+    margin-left: -60px;
+  }
+  h1 img {
+    max-width: 500px;
   }
 }
 
