@@ -310,12 +310,24 @@ article h1 {
 .footer {
   background: white;
 }
-.footer a {
+.footer a img {
+  max-width: 60px;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 2em;
+}
+.footer a {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  color: #999;
+  letter-spacing: 0.1em;
+  margin-right: 1.2em;
 }
 .footer .rchd {
   width: 100px;
   height: auto;
+}
+.footer .container {
+  margin: 0 auto;
 }
