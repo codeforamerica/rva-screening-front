@@ -1,5 +1,5 @@
 ---
-title: Search for an existing patient
+title: "Homepage: search for a patient"
 layout: docs
 ---
 
